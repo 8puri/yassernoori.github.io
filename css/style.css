@@ -48,7 +48,7 @@ h3 {
 /* Overrides MDL colors */
 .mdl-layout.is-upgraded .mdl-layout__tab.is-active::after,
 .header .mdl-textfield__label:after {
-    background-color: #FFCA28;
+    background-color: #ffffff
 }
 .mdl-snackbar__action {
     color: #FFCA28;
