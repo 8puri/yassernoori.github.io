@@ -299,8 +299,8 @@ h3 {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: #0288D1;
-    background: radial-gradient(circle, #039BE5, #01579b);
+    background-color: #ffff;
+    background: radial-gradient(circle, #000000, #1d1d1d);
     z-index: 10000;
     display: flex;
     justify-content: center;
