@@ -37,6 +37,9 @@ h3 {
     background-size: 40px;
     padding-left: 50px;
     background-position-y: -2px;
+    position: absolute;
+    top: 30%;
+    right: 38%;
 }
 .mdl-textfield {
     width: 100%;
