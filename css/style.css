@@ -14,8 +14,10 @@
  * limitations under the License.
  */
 
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
 html, body {
-    font-family: 'Roboto', 'Helvetica', sans-serif;
+    font-family: 'Raleway', 'Roboto', 'Helvetica', sans-serif;
 }
 a {
     text-decoration: underline;
