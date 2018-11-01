@@ -37,7 +37,7 @@ var myTopPostsMenuButton = document.getElementById('menu-my-top-posts');
 function writeNewPost(uid, username, title, body) {
   // A post entry.
   var postData = {
-    author: username,
+    author: "Classmate",
     uid: uid,
     body: body,
     title: title,
