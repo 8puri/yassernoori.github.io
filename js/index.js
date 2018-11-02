@@ -216,7 +216,7 @@ function addCommentElement(postElement, id, text, author) {
   comment.classList.add('comment-' + id);
   comment.innerHTML = '<span class="username"></span><span class="comment"></span>';
   comment.getElementsByClassName('comment')[0].innerText = text;
-  comment.getElementsByClassName('username')[0].innerText = "classmate";
+  comment.getElementsByClassName('username')[0].innerText = user.email;
 
   var commentsContainer = postElement.getElementsByClassName('comments-container')[0];
   commentsContainer.appendChild(comment);
@@ -228,7 +228,7 @@ function addCommentElement(postElement, id, text, author) {
 function setCommentValues(postElement, id, text, author) {
   var comment = postElement.getElementsByClassName('comment-' + id)[0];
   comment.getElementsByClassName('comment')[0].innerText = text;
-  comment.getElementsByClassName('fp-username')[0].innerText = author;
+  comment.getElementsByClassName('fp-username')[0].innerText = user.email;
 }
 
 /**
