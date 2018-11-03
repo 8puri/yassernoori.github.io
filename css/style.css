@@ -320,5 +320,6 @@ h3 {
 }
 
 .username {
-    color: black;   
+    color: black;
+    font-weight: bold;
 }
