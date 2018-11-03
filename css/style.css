@@ -318,3 +318,7 @@ h3 {
     color: white;
     flex-direction: column;
 }
+
+.username {
+    color: black;   
+}
