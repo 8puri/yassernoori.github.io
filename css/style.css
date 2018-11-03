@@ -15,6 +15,9 @@
  */
 
 @import url('https://fonts.googleapis.com/css?family=Raleway');
+html {
+    font-family: 'raleway';   
+}
 
 html, body {
     font-family: 'Raleway', sans-serif;
