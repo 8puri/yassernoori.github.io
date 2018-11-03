@@ -30,6 +30,12 @@ var recentMenuButton = document.getElementById('menu-recent');
 var myPostsMenuButton = document.getElementById('menu-my-posts');
 var myTopPostsMenuButton = document.getElementById('menu-my-top-posts');
 
+
+// Retrieves current date
+
+var d = new Date();
+var dr = d.toDateString();
+
 /**
  * Saves a new post to the Firebase DB.
  */
@@ -37,7 +43,7 @@ var myTopPostsMenuButton = document.getElementById('menu-my-top-posts');
 function writeNewPost(uid, username, title, body) {
   // A post entry.
   var postData = {
-    author: "Homework",
+    author: "Homework " + dr,
     uid: uid,
     body: body,
     title: title,
