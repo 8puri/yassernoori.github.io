@@ -37,7 +37,7 @@ var myTopPostsMenuButton = document.getElementById('menu-my-top-posts');
 function writeNewPost(uid, username, title, body) {
   // A post entry.
   var postData = {
-    author: "Classmate",
+    author: "Homework",
     uid: uid,
     body: body,
     title: title,
@@ -216,7 +216,7 @@ function addCommentElement(postElement, id, text, author) {
   comment.classList.add('comment-' + id);
   comment.innerHTML = '<span class="username"></span><span class="comment"></span>';
   comment.getElementsByClassName('comment')[0].innerText = text;
-  comment.getElementsByClassName('username')[0].innerText = "classmate";
+  comment.getElementsByClassName('username')[0].innerText = "Reply";
 
   var commentsContainer = postElement.getElementsByClassName('comments-container')[0];
   commentsContainer.appendChild(comment);
