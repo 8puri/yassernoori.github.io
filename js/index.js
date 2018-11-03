@@ -96,7 +96,7 @@ function createPostElement(postId, title, text, author) {
               '<div class="username mdl-color-text--white"></div>' +
             '</div>' +
           '</div>' +
-          '<span class="star">' +
+          '<span style="color:white" class="star">' +
             '<div class="not-starred material-icons">star_border</div>' +
             '<div class="starred material-icons">star</div>' +
             '<div class="star-count">0</div>' +
