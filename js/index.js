@@ -93,10 +93,10 @@ function createPostElement(postId, title, text, author) {
           '<div class="header">' +
             '<div>' +
               '<div class="avatar"></div>' +
-              '<div class="username mdl-color-text--black"></div>' +
+              '<div class="username mdl-color-text--white"></div>' +
             '</div>' +
           '</div>' +
-          '<span style="color:white" class="star">' +
+          '<span class="star">' +
             '<div class="not-starred material-icons">star_border</div>' +
             '<div class="starred material-icons">star</div>' +
             '<div class="star-count">0</div>' +
