@@ -31,19 +31,21 @@ var myPostsMenuButton = document.getElementById('menu-my-posts');
 var myTopPostsMenuButton = document.getElementById('menu-my-top-posts');
 
 
-// Retrieves current date
 
-var d = new Date();
-var dr = d.toDateString();
 
 /**
  * Saves a new post to the Firebase DB.
  */
 // [START write_fan_out]
 function writeNewPost(uid, username, title, body) {
+  
+// Retrieves current date
+var d = new Date();
+var dr = d.toDateString();
+  
   // A post entry.
   var postData = {
-    author: dr,
+    author: "Homework" + dr,
     uid: uid,
     body: body,
     title: title,
