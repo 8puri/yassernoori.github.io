@@ -93,7 +93,7 @@ function createPostElement(postId, title, text, author) {
           '<div class="header">' +
             '<div>' +
               '<div class="avatar"></div>' +
-              '<div class="username mdl-color-text--white"></div>' +
+              '<div class="username mdl-color-text--black"></div>' +
             '</div>' +
           '</div>' +
           '<span class="star">' +
