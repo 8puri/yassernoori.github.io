@@ -45,7 +45,7 @@ var dr = d.toDateString();
   
   // A post entry.
   var postData = {
-    author: "TEST",
+    author: "Homework" + dr,
     uid: uid,
     body: body,
     title: title,
