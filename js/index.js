@@ -43,7 +43,7 @@ var dr = d.toDateString();
 function writeNewPost(uid, username, title, body) {
   // A post entry.
   var postData = {
-    author: "Homework " + dr,
+    author: dr,
     uid: uid,
     body: body,
     title: title,
