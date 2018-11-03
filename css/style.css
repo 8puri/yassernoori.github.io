@@ -56,13 +56,13 @@ h3 {
     background-color: #ffffff
 }
 .mdl-snackbar__action {
-    color: #FFCA28;
+    color: #bababa;
 }
 .mdl-textfield__label:after {
-    background-color: #0288D1;
+    background-color: black;
 }
 .mdl-textfield--floating-label.is-focused .mdl-textfield__label {
-    color: #0288D1;
+    color: black;
 }
 
 /* Header */
