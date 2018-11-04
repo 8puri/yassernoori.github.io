@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-alert("Welcome to the class website! \n\n Updates: \n - Added login \n - Added date \n - Fixed bugs ");
+alert("Welcome to the class website! \n\n Updates: \n - Added login \n - Added date \n - Fixed bugs \n \n TODO: \n Make Compatibil With Mobile");
 
 'use strict';
 
