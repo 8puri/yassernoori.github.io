@@ -34,13 +34,15 @@ var myTopPostsMenuButton = document.getElementById('menu-my-top-posts');
 
 // Create Name
 function createName(){
-	var x = prompt("Enter a Name");
+    // Get Name
+    var x = prompt("Enter a Name");
     // Store
     localStorage.setItem("name", x);
     // Retrieve
-    y = localStorage.getItem("name");
+    var y = localStorage.getItem("name");
 }
 createName();
+
 /**
  * Saves a new post to the Firebase DB.
  */
@@ -50,10 +52,10 @@ function writeNewPost(uid, username, title, body) {
 // Retrieves current date
 var d = new Date();
 var dr = d.toDateString();
-  
+
   // A post entry.
   var postData = {
-    author: y + "Date: " + dr,
+    author: y + " Date: " + dr,
     uid: uid,
     body: body,
     title: title,
