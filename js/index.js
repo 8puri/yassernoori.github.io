@@ -302,7 +302,7 @@ window.addEventListener('load', function() {
   // Bind Sign in button.
   signInButton.addEventListener('click', function() {
     var provider = new firebase.auth.GoogleAuthProvider();
-    firebase.auth().signInWithPopup(provider);
+    firebase.auth().signInWithRedirect(provider);
   });
 
   // Listen for auth state changes
