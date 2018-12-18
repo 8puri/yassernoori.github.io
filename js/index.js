@@ -32,23 +32,20 @@ var recentMenuButton = document.getElementById('menu-recent');
 var myPostsMenuButton = document.getElementById('menu-my-posts');
 var myTopPostsMenuButton = document.getElementById('menu-my-top-posts');
 
-// experimental
-    // Get Name
-    var x = prompt("Enter a Name");
-    // Store
-    localStorage.setItem("name", x);
-    // Retrieve
-    var y = localStorage.getItem("name");
 
 /**
  * Saves a new post to the Firebase DB.
  */
 // [START write_fan_out]
-function writeNewPost(uid, username, title, body, y) {
-  
-    
-
-    
+function writeNewPost(uid, username, title, body) {
+ 
+ // experimental
+    // Get Name
+    var x = prompt("Enter a Name");
+    // Store
+    localStorage.setItem("name", x);
+    // Retrieve
+    var y = localStorage.getItem("name");   
     
 // Retrieves current date
 var d = new Date();
