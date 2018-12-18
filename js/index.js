@@ -235,7 +235,7 @@ function addCommentElement(postElement, id, text, author) {
   comment.classList.add('comment-' + id);
   comment.innerHTML = '<span class="username"></span><span class="comment"></span>';
   comment.getElementsByClassName('comment')[0].innerText = text;
-  comment.getElementsByClassName('username')[0].innerText = "Reply:";
+  comment.getElementsByClassName('username')[0].innerText = y;
 
   var commentsContainer = postElement.getElementsByClassName('comments-container')[0];
   commentsContainer.appendChild(comment);
