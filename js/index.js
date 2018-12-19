@@ -241,10 +241,10 @@ function addCommentElement(postElement, id, text, author) {
 /**
  * Sets the comment's values in the given postElement.
  */
-function setCommentValues(postElement, id, text, author, y) {
+function setCommentValues(postElement, id, text, author) {
   var comment = postElement.getElementsByClassName('comment-' + id)[0];
   comment.getElementsByClassName('comment')[0].innerText = text;
-  comment.getElementsByClassName('fp-username')[0].innerText = y;
+  comment.getElementsByClassName('fp-username')[0].innerText = "Reply: ";
 }
 
 /**
