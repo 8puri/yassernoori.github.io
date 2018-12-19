@@ -298,7 +298,7 @@ function writeUserData(userId, name, email) {
 window.addEventListener('load', function() {
   // Bind Sign in button.
   signInButton.addEventListener('click', function() {
-    var provider = new firebase.auth.GoogleAuthProvider();
+    var provider = new firebase.auth.EmailAndPasswordProvider(); //GoogleAuthProvider()
     firebase.auth().signInWithRedirect(provider);
   });
 
