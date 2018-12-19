@@ -227,7 +227,7 @@ function updateStarCount(postElement, nbStart) {
 /**
  * Creates a comment element and adds it to the given postElement.
  */
-function addCommentElement(postElement, id, text, author, y) {
+function addCommentElement(postElement, id, text, author) {
   var comment = document.createElement('div');
   comment.classList.add('comment-' + id);
   comment.innerHTML = '<span class="username"></span><span class="comment"></span>';
