@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-alert("Welcome to the class website! \n\n Version 1.40 \n\n Recent Updates: \n \n ** MADE COMPATIBLE WITH MOBILE ** \n - Added login widget \n - Added date feature \n - Fixed bugs \n - Added identification \n \n TODO: \n Add image uploading \n \n By Yasser Noori");
+
 
 'use strict';
 
