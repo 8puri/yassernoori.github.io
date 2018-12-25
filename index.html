@@ -1,0 +1,81 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>Mile 22 - Mile 22</title>
+<meta name="author" content="BobbyMovie">
+<meta name="robots" content="noindex">
+<meta name="googlebot" content="noindex">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+<link rel="icon" href="favicon.ico" type="image/x-icon">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mediaelement/4.2.6/mediaelementplayer.css">
+<link rel="stylesheet" href="https://static.cotomovies.com/player/jump-forward/jump-forward.css">
+<link rel="stylesheet" href="https://static.cotomovies.com/player/skip-back/skip-back.css">
+<link rel="stylesheet" href="https://static.cotomovies.com/player/speed/speed.css">
+<link rel="stylesheet" href="https://static.cotomovies.com/player/airplay/airplay.css">
+<link rel="stylesheet" href="https://static.cotomovies.com/player/tracks-settings/tracks-settings.css">
+<link rel="stylesheet" href="https://static.cotomovies.com/player/screen.css">
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-79164559-14"></script>
+<script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-79164559-14');
+    </script>
+</head>
+<body>
+<div id="container">
+<div class="media-wrapper">
+<video id="player1" width="640" height="360" style="max-width:100%;" playsinline webkit-playsinline controls preload="none" x-webkit-airplay="allow" airPlayTitle="Bobby" src="https://indian-fig.fruithosted.net/dl/n/JXkChhOOnIEXnIW5/lbcfoafoaqbnftcm/U4d9GEOQO2X7ccjFhn-fi8LNpzwh1H4HNe7PURNlBlcSOhwx1CNWfoHZxBuo1Qxo_gKP9zn-dc0B96Qt_R5M74e-B_6cSzxczlVlT3-WEw9UpAYT5UZpGJBFaV2jRc2vbGEg-PJ1IAyBPO6LZz75yBHtXdKqSbgGRNPGFuMZhRAPwmXfcJXTDwuiv8YBlMTOth5p_9DyjUCXDWnbpWurq9tT3J0URVuvUyxecYh0DQ_p8vMWHZqasfc8eopW5wsGAcrUjMj0EyS2FB3ptaHxb3eB5ECQLmqOSCTBUv-6XLv6jpaqGCskAvyKBFJ6qMnlfkLk88stHUzDL0XWrQ1lbV_59aW7Th8XqUjgKHWvuCrzT-gLzyxxy8bMvNTvFghkn64ae5n3xb69Ot4lzM_EEMA78MHLCns92ZsKG1Hk2iNyiCsWYn6cRmV5ZhvlmKSaUBU26f2ritKJwEgY7ufxwg/Mile.22.2018.1080p.WEBRip.AAC2.0.x264-SHITBOX.mp4">
+<track src="(null)" kind="captions" label="Caption On" srclang="en" default="">
+</video>
+</div>
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mediaelement/4.2.6/mediaelement-and-player.min.js"></script>
+<script src="https://static.cotomovies.com/player/jump-forward/jump-forward.js"></script>
+<script src="https://static.cotomovies.com/player/skip-back/skip-back.js"></script>
+<script src="https://static.cotomovies.com/player/speed/speed.js"></script>
+<script src="https://static.cotomovies.com/player/speed/speed-i18n.js"></script>
+<script src="https://static.cotomovies.com/player/airplay/airplay.js"></script>
+<script src="https://static.cotomovies.com/player/tracks-settings/tracks-settings.js"></script>
+<script>
+        var eventCategory = "film";
+            eventCategory = "film+caption";
+        var features = ['playpause', 'current', 'progress', 'duration', 'volume', 'tracks', 'tracksSettings', 'skipback', 'jumpforward', 'speed', 'fullscreen'];
+        var player = new MediaElementPlayer('player1', {
+                autoRewind: false,
+                features: features,
+                skipBackInterval: 15,
+                jumpForwardInterval: 15,
+                stretching: 'responsive',
+                startLanguage: 'en',
+                delayInSeconds: 0,
+                success: function(mediaElement, originalNode){
+                    mediaElement.addEventListener('playing', function(e){
+                        gtag('event', 'playing', {
+                            'event_category': eventCategory,
+                            'event_label': "Mile 22 - Mile 22"
+                        });
+                    });
+
+                },
+                error: function(mediaElement, originalNode) {
+                    gtag('event', 'error', {
+                        'event_category': eventCategory,
+                        'event_label': "Mile 22 - Mile 22"
+                    });
+                }
+            });
+        //player.setSrc('https://indian-fig.fruithosted.net/dl/n/JXkChhOOnIEXnIW5/lbcfoafoaqbnftcm/U4d9GEOQO2X7ccjFhn-fi8LNpzwh1H4HNe7PURNlBlcSOhwx1CNWfoHZxBuo1Qxo_gKP9zn-dc0B96Qt_R5M74e-B_6cSzxczlVlT3-WEw9UpAYT5UZpGJBFaV2jRc2vbGEg-PJ1IAyBPO6LZz75yBHtXdKqSbgGRNPGFuMZhRAPwmXfcJXTDwuiv8YBlMTOth5p_9DyjUCXDWnbpWurq9tT3J0URVuvUyxecYh0DQ_p8vMWHZqasfc8eopW5wsGAcrUjMj0EyS2FB3ptaHxb3eB5ECQLmqOSCTBUv-6XLv6jpaqGCskAvyKBFJ6qMnlfkLk88stHUzDL0XWrQ1lbV_59aW7Th8XqUjgKHWvuCrzT-gLzyxxy8bMvNTvFghkn64ae5n3xb69Ot4lzM_EEMA78MHLCns92ZsKG1Hk2iNyiCsWYn6cRmV5ZhvlmKSaUBU26f2ritKJwEgY7ufxwg/Mile.22.2018.1080p.WEBRip.AAC2.0.x264-SHITBOX.mp4');
+        player.findTracks();
+        player.loadTrack(0);
+        player.media.load();
+    </script>
+</body>
+</html>
